@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: "\u5C71\u85E5\u5B78\u7FD2"
+  companyName: oppositaman
   productName: UnityCardGame
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}

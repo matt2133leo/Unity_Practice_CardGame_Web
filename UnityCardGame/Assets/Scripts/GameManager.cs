@@ -82,19 +82,19 @@ public class GameManager : MonoBehaviour
         {
             aud.PlayOneShot(soundWin);              //播放勝利音效
             gameoverscene.SetActive(true);          //打開結束畫面
-            Finalresault.text = "你贏了！！！";     //結果調整成你贏了!
+            Finalresault.text = "YOU WIN！！！";     //結果調整成你贏了!
         }
         else if (player < pc)               //玩家卡面小於電腦
         {
             aud.PlayOneShot(soundLose);             //播放失敗音效
             gameoverscene.SetActive(true);          //打開結束畫面
-            Finalresault.text = "弱～";             //結果調整成弱～
+            Finalresault.text = "Loser～";             //結果調整成弱～
         }
         else if (player == pc)             //玩家卡面等於電腦
         {
             aud.PlayOneShot(soundTie);              //播放平手音效
             gameoverscene.SetActive(true);          //打開結束畫面
-            Finalresault.text = "沒輸沒贏。";       //結果調整成沒輸沒贏
+            Finalresault.text = "Tie.....";       //結果調整成沒輸沒贏
         }
         #endregion
     }
