@@ -534,6 +534,8 @@ MonoBehaviour:
   soundWin: {fileID: 8300000, guid: c56457de3a8bf4d4d8191bddca0a4d82, type: 3}
   soundLose: {fileID: 8300000, guid: e954741e0310d6e439a4e614f15ee793, type: 3}
   soundTie: {fileID: 8300000, guid: e1ed5e7bdcf877343b7a96f92fa6a7e0, type: 3}
+  gameoverscene: {fileID: 1575089947}
+  Finalresault: {fileID: 2121032004}
 --- !u!82 &975463749
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1010,7 +1012,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1511313312}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 975463748}
+        m_MethodName: ReGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1511313312
 MonoBehaviour:
   m_ObjectHideFlags: 0
